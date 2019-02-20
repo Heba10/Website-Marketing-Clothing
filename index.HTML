@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<style>
+
+body {
+
+  background-image: url("4c97df3dd03a325e82ad4d829fdd27bc.jpg");
+  min-height: 50px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+ 
+}
+img,dd{
+			position: relative;
+			width: 500px;
+			height: 400px;
+		}
+		img{
+			display: none;
+		}
+		.left{
+			position: absolute;
+			top: 50%;
+			left:0%;
+		}
+		.right{
+			position: absolute;
+			top: 50%;
+			right: 0%;
+		}
+
+</style>
+
+
+	<!-- Start css3menu.com HEAD section -->
+
+	<link rel="stylesheet" href="index_files/css3menu0/style.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
+
+	<!-- End css3menu.com HEAD section -->
+
+</head>
+<body><!-- Start css3menu.com BODY section -->
+<div align="center">
+<center>
+<input type="checkbox" id="css3menu-switcher" class="c3m-switch-input" >
+<ul id="css3menu0" class="topmenu">
+
+	<li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
+	<li class="topmenu"><a href="index.HTML" style="height:18px;line-height:18px;">Home</a></li>
+
+	<li class="topmenu"><a href="About.HTML" style="height:18px;line-height:18px;">About</a></li>
+
+	<li class="topmenu"><a href="Colors.HTML" style="height:18px;line-height:18px;">Colors</a></li>
+
+	<li class="topmenu"><a href="Sizing.HTML" style="height:18px;line-height:18px;">Sizing</a></li>
+
+	<li class="topmenu"><a href="Pricing.HTML" style="height:18px;line-height:18px;">Pricing</a></li>
+
+</ul><p class="_css3m"><a href="http://css3menu.com/">mobile menu</a> by Css3Menu.com</p>
+
+<!-- End css3menu.com BODY section -->
+
+</center>
+
+
+
+
+</div>
+
+<table>
+	<td><tr><dd><center><img src="a.PNG" class="image">
+<img src="b.PNG"  class="image">
+<img src="c.PNG"  class="image">
+<button class="left" onclick="plusimg(-1)"><</button>
+<button class="right" onclick="plusimg(1)">></button></center></dd></tr><tr>
+ <form >
+       <h1>Existing Customer</h1>
+         <input type = "text" name = "First Name" placeholder = "First Name" />
+         
+         <input type = "text" name = "Last Name" placeholder = "Last Name" /><br>
+         <input type = "text" name = "Emai Address" placeholder = "Emai Address" />
+         
+         <input type = "text" name = "Phone Number" placeholder = "Phone Number" /><br>
+     
+         
+         <input type = "submit" value = "Book Now" />
+      </form>
+</tr></td>
+</table>
+
+<script type="text/javascript">
+	var x = document.getElementsByClassName("image");
+	x[0].style.display="block";
+	slideindex=1;
+	function plusimg(n){
+		slideindex+=n;
+		var x = document.getElementsByClassName("image");
+		var i ;
+		for(i=0 ; i<x.length ; i++){
+			x[i].style.display = "none";
+		}
+		if(slideindex>x.length){slideindex=1}
+			if(slideindex<1){slideindex=x.length}
+		x[slideindex-1].style.display="block";
+	}
+</script>
+
+<table><tr><td><p style="color: #8B0000 ; font-size: 20px" >© 2018 Teespring, Inc.</p><td><select name="dropdown" ><br><br>
+			<option >Italiano</option><br><br>
+			<option value="B">English(UK)</option> <br><br>
+			<option value="C" selected>English(USA)</option><br><br>
+			<option value="B">Francais</option> <br><br>
+			<option value="B">Arabic</option> <br><br>
+			
+		</select></td></tr></table>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+/*.fixed-bg  {
+
+  background-image: url("5.PNG");
+  min-height: 50px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: auto;
+ 
+}*/
+ #AA{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: 2px black;
+			
+    animation-name: Key1;
+    animation-duration: 8s;
+	animation-iteration-count: infinite;
+			animation-direction: alternate;
+}
+@keyframes Key1 {
+    from {transform: translate(-600px,-300px)}
+    to {transform: translate(600px,-300px)}
+
+
+}
+
+</style>
+</head>
+<body style="background-color:#FFFFFF;" >
+	<table align="center">
+		<tr><td><h1 style="color:#000000 " align="center" >Astonishing fit</h1><h3 style="color:#000000 " align="center" >Men’s S-5XL</h3><p align="center" style="color:#C5DECF " align="center">Don’t forget! 4XL and 5XL tees account for 6.5% of Men’s t-shirt sales. The fit of the Men’s shirt is fashionably relaxed with just enough structure and weight.</p><h3 style="color:#000000 " align="center" >Women’s XS-4XL</h3><p align="center" style="color:#C5DECF " align="center">Our Women’s tee is flattering and form fitting, while still leaving some space to move around. This is also our first and only Women’s offering in 4XL.</p><h3 style="color:#000000 " align="center" >Kids' XS-XL</h3><p align="center" style="color:#C5DECF " align="center">Don’t forget! 4XL and 5XL tees account for 6.5% of Men’s t-shirt sales. The fit of the Men’s shirt is fashionably relaxed with just enough structure and weight.</p></td></tr>
+
+		
+
+	</table>
+
+		<center>
+		
+		
+	<div id="AA" style="font-size: 100px">sale 50% </div>
+
+	</center>
+	
+</body>
+</html>
